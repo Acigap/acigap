@@ -5,14 +5,14 @@ import Home from './Home';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-[#fbfbfd]">
-        <nav className="backdrop-blur-md bg-white/70 sticky top-0 z-50 border-b border-gray-200/50">
+      <div className="min-h-screen bg-[var(--background)]">
+        <nav className="backdrop-blur-md bg-[var(--neutral-1)]/70 sticky top-0 z-50 border-b border-[var(--border)]">
           <div className="max-w-5xl mx-auto">
             <ul className="flex justify-center space-x-8 py-3">
               <li>
                 <Link 
                   to="/" 
-                  className="text-[#1d1d1f] font-medium hover:text-[#06c] transition-colors duration-200 text-sm"
+                  className="text-[var(--neutral-10)] font-medium hover:text-[var(--primary-blue)] transition-colors duration-200 text-sm"
                 >
                   Main Page
                 </Link>
@@ -20,7 +20,7 @@ function App() {
               <li>
                 <Link 
                   to="/home" 
-                  className="text-[#1d1d1f] font-medium hover:text-[#06c] transition-colors duration-200 text-sm"
+                  className="text-[var(--neutral-10)] font-medium hover:text-[var(--primary-blue)] transition-colors duration-200 text-sm"
                 >
                   Home
                 </Link>
@@ -41,7 +41,7 @@ function App() {
 
 function Main() {
   return (
-    <div className="w-full h-[calc(100vh-64px)] rounded-2xl overflow-hidden shadow-lg">
+    <div className="card w-full h-[calc(100vh-64px)] overflow-hidden shadow-lg">
       <iframe 
         src="https://v0-paywise-prd.vercel.app/"
         className="w-full h-full border-none"
