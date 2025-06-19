@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Store matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="space-y-8"
+  >
+    <div
+      class="text-center space-y-4"
+    >
+      <h1
+        class="text-4xl font-bold text-[var(--neutral-12)]"
+      >
+        Our Products
+      </h1>
+      <p
+        class="text-[var(--neutral-11)] max-w-2xl mx-auto"
+      >
+        Discover our range of high-quality products designed to meet your needs
+      </p>
+    </div>
+    <div
+      class="flex justify-center space-x-4"
+    >
+      <button
+        class="px-4 py-2 rounded-full text-sm font-medium transition-colors
+              bg-[var(--primary-green)] text-white"
+      >
+        All
+      </button>
+      <button
+        class="px-4 py-2 rounded-full text-sm font-medium transition-colors
+              bg-[var(--neutral-3)] text-[var(--neutral-11)] hover:bg-[var(--neutral-4)]"
+      >
+        Featured
+      </button>
+      <button
+        class="px-4 py-2 rounded-full text-sm font-medium transition-colors
+              bg-[var(--neutral-3)] text-[var(--neutral-11)] hover:bg-[var(--neutral-4)]"
+      >
+        New
+      </button>
+    </div>
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+    >
+      <div
+        class="group bg-[var(--neutral-1)] rounded-lg overflow-hidden border border-[var(--border)] hover:border-[var(--primary-green)] transition-colors"
+      >
+        <div
+          class="aspect-video relative overflow-hidden"
+        >
+          <img
+            alt="Bambu Lab P1P"
+            class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
+            src="https://f.btwcdn.com/store-34999/product-thumb/11e7bc6c-2bd1-5844-a050-6666ba0ec7d3.jpg"
+          />
+        </div>
+        <div
+          class="p-6 space-y-4"
+        >
+          <h3
+            class="text-xl font-semibold text-[var(--neutral-12)]"
+          >
+            Bambu Lab P1P
+          </h3>
+          <p
+            class="text-[var(--neutral-11)]"
+          >
+            Professional 3D printer with CoreXY system and high speed printing
+          </p>
+          <div
+            class="flex justify-between items-center"
+          >
+            <p
+              class="text-2xl font-bold text-[var(--neutral-12)]"
+            >
+              ฿59,900
+            </p>
+            <button
+              class="bg-[var(--primary-green)] text-white px-6 py-2 rounded-lg hover:bg-[var(--primary-green-hover)] transition-colors"
+            >
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="group bg-[var(--neutral-1)] rounded-lg overflow-hidden border border-[var(--border)] hover:border-[var(--primary-green)] transition-colors"
+      >
+        <div
+          class="aspect-video relative overflow-hidden"
+        >
+          <img
+            alt="Bambu Lab X1 Carbon"
+            class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
+            src="https://f.btwcdn.com/store-34999/product-thumb/5d847bed-3dde-f6c9-135a-6666bbd6b058.jpg"
+          />
+        </div>
+        <div
+          class="p-6 space-y-4"
+        >
+          <h3
+            class="text-xl font-semibold text-[var(--neutral-12)]"
+          >
+            Bambu Lab X1 Carbon
+          </h3>
+          <p
+            class="text-[var(--neutral-11)]"
+          >
+            High-end 3D printer with carbon fiber composite frame
+          </p>
+          <div
+            class="flex justify-between items-center"
+          >
+            <p
+              class="text-2xl font-bold text-[var(--neutral-12)]"
+            >
+              ฿89,900
+            </p>
+            <button
+              class="bg-[var(--primary-green)] text-white px-6 py-2 rounded-lg hover:bg-[var(--primary-green-hover)] transition-colors"
+            >
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="group bg-[var(--neutral-1)] rounded-lg overflow-hidden border border-[var(--border)] hover:border-[var(--primary-green)] transition-colors"
+      >
+        <div
+          class="aspect-video relative overflow-hidden"
+        >
+          <img
+            alt="Bambu Lab A1 Mini"
+            class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
+            src="https://f.btwcdn.com/store-34999/product-thumb/4ca61bd9-6bc4-2d2d-8aa5-6819e61dbbd2.jpg"
+          />
+          <div
+            class="absolute top-4 right-4 bg-[var(--primary-green)] text-white px-3 py-1 rounded-full text-sm font-medium"
+          >
+            New
+          </div>
+        </div>
+        <div
+          class="p-6 space-y-4"
+        >
+          <h3
+            class="text-xl font-semibold text-[var(--neutral-12)]"
+          >
+            Bambu Lab A1 Mini
+          </h3>
+          <p
+            class="text-[var(--neutral-11)]"
+          >
+            Compact and affordable 3D printer for beginners
+          </p>
+          <div
+            class="flex justify-between items-center"
+          >
+            <p
+              class="text-2xl font-bold text-[var(--neutral-12)]"
+            >
+              ฿29,900
+            </p>
+            <button
+              class="bg-[var(--primary-green)] text-white px-6 py-2 rounded-lg hover:bg-[var(--primary-green-hover)] transition-colors"
+            >
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

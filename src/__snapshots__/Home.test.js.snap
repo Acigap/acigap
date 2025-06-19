@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col items-center justify-center min-h-[80vh] p-8"
+  >
+    <div
+      class="card p-12 max-w-2xl w-full text-center space-y-8"
+    >
+      <h1
+        class="text-6xl font-semibold text-[var(--foreground)] tracking-tight"
+      >
+        หน้าหลัก
+      </h1>
+      <p
+        class="text-xl text-[var(--muted-foreground)] max-w-md mx-auto leading-relaxed"
+      >
+        ยินดีต้อนรับสู่หน้าหลักของเว็บไซต์
+      </p>
+      <div
+        class="flex justify-center gap-4 pt-4"
+      >
+        <button
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-[var(--radius)] font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 active:scale-95 disabled:pointer-events-none disabled:opacity-50 bg-[var(--primary-blue)] text-[var(--neutral-1)] hover:bg-[var(--primary-blue-hover)] active:bg-[var(--primary-blue-active)] h-12 px-6 text-base"
+        >
+          ดูเพิ่มเติม
+        </button>
+        <button
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-[var(--radius)] font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 active:scale-95 disabled:pointer-events-none disabled:opacity-50 bg-[var(--neutral-2)] text-[var(--neutral-10)] hover:bg-[var(--neutral-3)] h-12 px-6 text-base"
+        >
+          ย้อนกลับ
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

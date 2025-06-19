@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transfer matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="space-y-6"
+  >
+    <h1
+      class="text-2xl font-semibold text-[var(--neutral-12)]"
+    >
+      โอนเงิน
+    </h1>
+    <div
+      class="bg-[var(--neutral-1)] p-6 rounded-lg border border-[var(--border)]"
+    >
+      <form
+        class="space-y-4"
+      >
+        <div>
+          <label
+            class="block text-sm font-medium text-[var(--neutral-11)] mb-1"
+          >
+            บัญชีปลายทาง
+          </label>
+          <input
+            class="w-full p-2 rounded border border-[var(--border)] bg-[var(--neutral-2)]"
+            placeholder="หมายเลขบัญชี"
+            type="text"
+          />
+        </div>
+        <div>
+          <label
+            class="block text-sm font-medium text-[var(--neutral-11)] mb-1"
+          >
+            จำนวนเงิน
+          </label>
+          <input
+            class="w-full p-2 rounded border border-[var(--border)] bg-[var(--neutral-2)]"
+            placeholder="0.00"
+            type="number"
+          />
+        </div>
+        <button
+          class="w-full bg-[var(--primary-blue)] text-white py-2 px-4 rounded hover:bg-[var(--primary-blue-hover)] transition-colors"
+          type="submit"
+        >
+          โอนเงิน
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

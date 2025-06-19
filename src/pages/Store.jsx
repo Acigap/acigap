@@ -6,7 +6,7 @@ function Store() {
       id: 1,
       name: "Bambu Lab P1P",
       price: 59900,
-      image: "https://asia.store.bambulab.com/cdn/shop/files/P1P_Grey_01_540x.png",
+      image: "https://f.btwcdn.com/store-34999/product-thumb/11e7bc6c-2bd1-5844-a050-6666ba0ec7d3.jpg",
       description: "Professional 3D printer with CoreXY system and high speed printing",
       category: "Featured"
     },
@@ -14,7 +14,7 @@ function Store() {
       id: 2,
       name: "Bambu Lab X1 Carbon",
       price: 89900,
-      image: "https://asia.store.bambulab.com/cdn/shop/products/X1C_01_540x.png",
+      image: "https://f.btwcdn.com/store-34999/product-thumb/5d847bed-3dde-f6c9-135a-6666bbd6b058.jpg",
       description: "High-end 3D printer with carbon fiber composite frame",
       category: "Featured"
     },
@@ -22,7 +22,7 @@ function Store() {
       id: 3,
       name: "Bambu Lab A1 Mini",
       price: 29900,
-      image: "https://asia.store.bambulab.com/cdn/shop/files/A1-mini_45_540x.png",
+      image: "https://f.btwcdn.com/store-34999/product-thumb/4ca61bd9-6bc4-2d2d-8aa5-6819e61dbbd2.jpg",
       description: "Compact and affordable 3D printer for beginners",
       category: "New"
     },
@@ -72,6 +72,7 @@ function Store() {
               <img 
                 src={product.image} 
                 alt={product.name}
+                onError={e => { e.target.onerror = null; e.target.src = "/logo192.png"; }}
                 className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
               />
               {product.category === "New" && (
