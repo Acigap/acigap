@@ -6,7 +6,7 @@ function Store() {
       id: 1,
       name: "Bambu Lab P1P",
       price: 59900,
-      image: "https://cdn.store.bambulab.com/cdn/shop/products/P1P_01_2_700x.png",
+      image: "https://asia.store.bambulab.com/cdn/shop/files/P1P_Grey_01_540x.png",
       description: "Professional 3D printer with CoreXY system and high speed printing",
       category: "Featured"
     },
@@ -14,7 +14,7 @@ function Store() {
       id: 2,
       name: "Bambu Lab X1 Carbon",
       price: 89900,
-      image: "https://cdn.store.bambulab.com/cdn/shop/products/X1C_01_700x.png",
+      image: "https://asia.store.bambulab.com/cdn/shop/products/X1C_01_540x.png",
       description: "High-end 3D printer with carbon fiber composite frame",
       category: "Featured"
     },
@@ -22,7 +22,7 @@ function Store() {
       id: 3,
       name: "Bambu Lab A1 Mini",
       price: 29900,
-      image: "https://cdn.store.bambulab.com/cdn/shop/files/A1mini-45_700x.png",
+      image: "https://asia.store.bambulab.com/cdn/shop/files/A1-mini_45_540x.png",
       description: "Compact and affordable 3D printer for beginners",
       category: "New"
     },
