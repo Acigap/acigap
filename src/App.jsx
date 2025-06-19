@@ -6,6 +6,7 @@ import Transfer from './pages/Transfer';
 import History from './pages/History';
 import TransactionDetail from './pages/TransactionDetail';
 import Store from './pages/Store';
+import Dashboard from './pages/Dashboard';
 
 const queryClient = new QueryClient();
 
@@ -19,18 +20,10 @@ function App() {
               <ul className="flex justify-center space-x-8 py-3">
                 <li>
                   <Link 
-                    to="/" 
+                    to="/home" 
                     className="text-[var(--neutral-10)] font-medium hover:text-[var(--primary-green)] transition-colors duration-200 text-sm"
                   >
-                    โอนเงิน
-                  </Link>
-                </li>
-                <li>
-                  <Link 
-                    to="/history" 
-                    className="text-[var(--neutral-10)] font-medium hover:text-[var(--primary-green)] transition-colors duration-200 text-sm"
-                  >
-                    ประวัติ
+                    Home
                   </Link>
                 </li>
                 <li>
@@ -43,10 +36,18 @@ function App() {
                 </li>
                 <li>
                   <Link 
-                    to="/home" 
+                    to="/history" 
                     className="text-[var(--neutral-10)] font-medium hover:text-[var(--primary-green)] transition-colors duration-200 text-sm"
                   >
-                    Home
+                    ประวัติ
+                  </Link>
+                </li>
+                <li>
+                  <Link 
+                    to="/" 
+                    className="text-[var(--neutral-10)] font-medium hover:text-[var(--primary-green)] transition-colors duration-200 text-sm"
+                  >
+                    โอนเงิน
                   </Link>
                 </li>
               </ul>
@@ -59,6 +60,7 @@ function App() {
               <Route path="/transaction/:id" element={<TransactionDetail />} />
               <Route path="/store" element={<Store />} />
               <Route path="/home" element={<Home />} />
+              <Route path="/dashboard" element={<Dashboard />} />
             </Routes>
           </main>
         </div>
