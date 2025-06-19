@@ -9,12 +9,12 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-[var(--primary-blue)] text-white hover:bg-[var(--primary-blue-hover)] active:bg-[var(--primary-blue-active)]",
+        default: "bg-[var(--primary-blue)] text-[var(--neutral-1)] hover:bg-[var(--primary-blue-hover)] active:bg-[var(--primary-blue-active)]",
         secondary: "bg-[var(--neutral-2)] text-[var(--neutral-10)] hover:bg-[var(--neutral-3)]",
-        outline: "border-2 border-[var(--primary-blue)] text-[var(--primary-blue)] bg-transparent hover:bg-[var(--primary-blue)] hover:text-white",
+        outline: "border-2 border-[var(--primary-blue)] text-[var(--primary-blue)] bg-transparent hover:bg-[var(--primary-blue)] hover:text-[var(--neutral-1)]",
         ghost: "text-[var(--primary-blue)] hover:text-[var(--primary-blue-hover)] hover:bg-[var(--neutral-2)]",
-        destructive: "bg-[var(--error)] text-white hover:opacity-90",
-        success: "bg-[var(--success)] text-white hover:opacity-90",
+        destructive: "bg-[var(--error)] text-[var(--neutral-1)] hover:opacity-90",
+        success: "bg-[var(--success)] text-[var(--neutral-1)] hover:opacity-90",
         warning: "bg-[var(--warning)] text-[var(--neutral-10)] hover:opacity-90",
       },
       size: {
